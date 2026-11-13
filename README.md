@@ -1,17 +1,23 @@
-# BIOHAZARD CLIENT — static website
+# BIOHAZARD CLIENT
 
-Responsive HTML/CSS/vanilla JavaScript landing page, ready for GitHub Pages.
+A responsive, single-page Tokyo Ghoul-inspired landing page built with HTML, CSS, and vanilla JavaScript. Designed for GitHub Pages.
 
-## Included visuals
-- `gallery` first image: the Chapter 61 ("Glimmer") chair scene. Loaded from an online image host.
-- `gallery` second image: the red anime "I am... a ghoul" close-up. Loaded from an online image host.
-
-The image files are referenced by their remote URLs in `index.html`, not bundled in this ZIP. They therefore need an internet connection and could move or become unavailable if the hosts change. The manga/anime images are copyrighted by their respective owners; confirm permissions before public/commercial use.
+## Publish with GitHub Pages
+1. Create a **public** GitHub repository.
+2. Upload the contents of this folder (make sure `index.html` is in the repository root).
+3. Open **Settings → Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**.
+5. Choose branch `main` and folder `/(root)`, then save.
+6. Your site will be published at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`.
 
 ## Before publishing
-1. Replace the GitHub placeholder URL in the Download button with your actual release URL.
-2. Replace the Discord placeholder URL with your invite link.
-3. If you have permission to host the artwork, download the images into `assets/images/` and change the two `<img src>` values in `index.html` to local paths.
+- Replace the placeholder GitHub URL on the DOWNLOAD CLIENT button with your real download/release URL.
+- Replace the placeholder Discord URL on JOIN THE COMMUNITY with your invite link.
+- The Chapter 61 manga and anime reference images are loaded from external image hosts. External hosts may change or block hotlinking; if an image stops loading, replace its `src` in `index.html` with an image you have permission to use, preferably stored in `assets/images/`.
+- Tokyo Ghoul artwork and characters belong to their respective copyright holders. Check usage rights before publishing or using artwork commercially.
 
-## GitHub Pages
-Upload the contents of this folder to the root of a GitHub repository. Open **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
+## Files
+- `index.html` — page content
+- `style.css` — responsive styling and animation
+- `script.js` — mobile navigation, pointer glow, and reveal effects
+- `assets/icons/` — site icon assets
